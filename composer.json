@@ -26,5 +26,6 @@
     "psr-4": {
         "scitu\\OAuth2\\Client\\": "src/"
     }
-  }
+  },
+  "minimum-stability": "dev"
 }
