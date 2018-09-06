@@ -1,0 +1,30 @@
+{
+  "name" : "scitu/oauth2-tu",
+  "description" : "TU OAuth 2.0 support for the PHP League's OAuth 2.0 Client.",
+  "license": "MIT",
+  "authors": [
+      {
+          "name": "Taratep Siraaksorn",
+          "email": "taratep.sira@sci.tu.ac.th"
+      }
+  ],
+  "keywords": [
+    "php",
+    "TU",
+    "Thammasart University",
+    "api",
+    "oauth",
+    "oauth2",
+    "client",
+    "authorization",
+    "authentication"
+  ],
+  "require": {
+    "league/oauth2-client": "^2.0"
+  },
+  "autoload": {
+    "psr-4": {
+        "scitu\\OAuth2\\Client\\": "src/"
+    }
+  }
+}
